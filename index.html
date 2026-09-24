@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karmal Sreenivasan T — Data Science &amp; Design</title>
+<meta name="description" content="Portfolio of Karmal Sreenivasan T, a final-year AI &amp; Data Science student and designer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#top" class="nav__logo">KST<span class="nav__logo-dot">.</span></a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#assistant">Assistant</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__kicker">Karmal Sreenivasan T</p>
+      <h1 class="hero__title">Building models.<br>Designing the story around them.</h1>
+      <p class="hero__intro">
+        I'm a final-year B.Tech Artificial Intelligence &amp; Data Science student who builds
+        machine learning systems — from a house-price predictor to an underwater rescue
+        detector — and then designs the interface, brand, and visuals around them. I move
+        comfortably between Scikit-learn and Illustrator.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">See my projects</a>
+        <a href="#assistant" class="btn btn--ghost">Talk to my AI assistant</a>
+      </div>
+    </div>
+    <div class="hero__figure">
+      <svg id="heroChart" viewBox="0 0 420 320" role="img" aria-label="Abstract line and scatter chart">
+        <line class="axis" x1="40" y1="270" x2="400" y2="270"></line>
+        <line class="axis" x1="40" y1="270" x2="40" y2="20"></line>
+        <polyline class="plot-line" points="40,230 90,200 140,215 190,150 240,170 290,95 340,120 390,55"></polyline>
+        <g class="plot-dots">
+          <circle cx="90" cy="200" r="5"></circle>
+          <circle cx="190" cy="150" r="5"></circle>
+          <circle cx="290" cy="95" r="5"></circle>
+          <circle cx="390" cy="55" r="5"></circle>
+        </g>
+        <g class="scatter-dots">
+          <circle cx="70" cy="245" r="3"></circle>
+          <circle cx="120" cy="180" r="3"></circle>
+          <circle cx="160" cy="235" r="3"></circle>
+          <circle cx="210" cy="120" r="3"></circle>
+          <circle cx="260" cy="200" r="3"></circle>
+          <circle cx="310" cy="140" r="3"></circle>
+          <circle cx="360" cy="90" r="3"></circle>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="section__inner about__grid">
+      <div class="about__text">
+        <h2 class="section__title">About</h2>
+        <p>
+          I'm currently pursuing a B.Tech in Artificial Intelligence and Data Science at
+          Stella Mary's College of Engineering (2023–2027). Before that, I completed a
+          Diploma in Mechanical Engineering at N.M.S. Kamaraj Polytechnic College, which is
+          part of why I like understanding how things are actually built, not just how they
+          look on a slide.
+        </p>
+        <p>
+          Alongside machine learning, I've spent a lot of time in Figma and the Adobe suite —
+          I've won a national-level logo design symposium and I treat UI/UX as seriously as
+          model accuracy. I'm currently interning as a Data Science Intern at Srishti
+          Innovative, Trivandrum.
+        </p>
+      </div>
+      <aside class="about__facts" aria-label="Education summary">
+        <div class="fact-card">
+          <p class="fact-card__label">B.Tech, AI &amp; Data Science</p>
+          <p class="fact-card__meta">Stella Mary's College of Engineering · 2023–2027</p>
+          <p class="fact-card__value">CGPA 6.97 / 10</p>
+        </div>
+        <div class="fact-card">
+          <p class="fact-card__label">Diploma, Mechanical Engineering</p>
+          <p class="fact-card__meta">N.M.S. Kamaraj Polytechnic College · 2017–2023</p>
+          <p class="fact-card__value">69%</p>
+        </div>
+        <div class="fact-card">
+          <p class="fact-card__label">SSLC</p>
+          <p class="fact-card__meta">Orient Matriculation School · 2015–2016</p>
+          <p class="fact-card__value">74%</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills">
+    <div class="section__inner">
+      <h2 class="section__title">Skills</h2>
+      <div class="skills__groups">
+        <div class="skill-group">
+          <h3 class="skill-group__title">Languages</h3>
+          <ul class="tag-list">
+            <li class="tag">Python</li>
+            <li class="tag">Java</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group__title">Libraries</h3>
+          <ul class="tag-list">
+            <li class="tag">Pandas</li>
+            <li class="tag">NumPy</li>
+            <li class="tag">Matplotlib</li>
+            <li class="tag">Scikit-learn</li>
+            <li class="tag">Seaborn</li>
+            <li class="tag">Plotly</li>
+            <li class="tag">PyTorch</li>
+            <li class="tag">TensorFlow</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group__title">Frameworks &amp; database</h3>
+          <ul class="tag-list">
+            <li class="tag">Spring Boot</li>
+            <li class="tag">React</li>
+            <li class="tag">MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group__title">Design tools</h3>
+          <ul class="tag-list">
+            <li class="tag tag--accent">Figma</li>
+            <li class="tag tag--accent">Adobe Photoshop</li>
+            <li class="tag tag--accent">Adobe Illustrator</li>
+            <li class="tag tag--accent">Adobe InDesign</li>
+            <li class="tag tag--accent">Adobe Premiere Pro</li>
+            <li class="tag tag--accent">Adobe After Effects</li>
+          </ul>
+        </div>
+      </div>
+      <div class="certs">
+        <h3 class="skill-group__title">Certificate courses</h3>
+        <ul class="certs__list">
+          <li>Fundamentals of Data Science — Coursera</li>
+          <li>UI/UX Design</li>
+          <li>Python for Data Science — Infosys Certification</li>
+          <li>Python for Data Analytics — Infosys Certification</li>
+          <li>Graphic Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="section__inner">
+      <h2 class="section__title">Projects</h2>
+      <ul class="project-list">
+        <li class="project">
+          <p class="project__fig">Fig. 01</p>
+          <div class="project__body">
+            <h3 class="project__title">House Price Prediction</h3>
+            <p class="project__desc">
+              A regression-based machine learning model that predicts house prices from
+              property features. Covered data preprocessing, feature engineering, and model
+              evaluation end to end.
+            </p>
+            <ul class="project__stack">
+              <li>Python</li><li>Pandas</li><li>NumPy</li><li>Scikit-learn</li>
+            </ul>
+            <p class="project__meta">Duration: 2 weeks</p>
+            <!-- No public repository link was provided for this project -->
+            <a href="#" class="project__link" aria-disabled="true">Code coming soon</a>
+          </div>
+        </li>
+        <li class="project">
+          <p class="project__fig">Fig. 02</p>
+          <div class="project__body">
+            <h3 class="project__title">Sea Rescue</h3>
+            <p class="project__desc">
+              An AI-powered underwater human-detection system built for real-time rescue
+              assistance, using YOLOv5 for detection and a Raspberry Pi and Arduino inside a
+              waterproof housing for on-site operation.
+            </p>
+            <ul class="project__stack">
+              <li>YOLOv5</li><li>Raspberry Pi</li><li>Arduino</li>
+            </ul>
+            <p class="project__meta">Duration: 1 month</p>
+            <!-- No public repository link was provided for this project -->
+            <a href="#" class="project__link" aria-disabled="true">Code coming soon</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="assistant" class="section assistant">
+    <div class="section__inner">
+      <h2 class="section__title">Talk to my AI assistant</h2>
+      <p class="assistant__intro">
+        I built a retrieval-augmented assistant that's read my resume and project notes —
+        ask it anything about my background, skills, or projects and it'll answer from that
+        context.
+      </p>
+      <div class="assistant__frame-wrap">
+        <iframe
+          src="https://karmal-s-rag-fvmtjjqbt4ejhuqrndrmpg.streamlit.app/"
+          width="100%"
+          height="600"
+          style="border:none;"
+          title="Karmal's AI assistant, built with Retrieval-Augmented Generation"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="footer">
+  <div class="section__inner footer__inner">
+    <div>
+      <p class="footer__name">Karmal Sreenivasan T</p>
+      <p class="footer__tag">Data Science · Design</p>
+    </div>
+    <ul class="footer__links">
+      <li><a href="mailto:karmalsreenivasan@gmail.com">karmalsreenivasan@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/karmal-sreenivasan-8892a3424" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/karmal12" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
