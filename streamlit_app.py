@@ -23,7 +23,7 @@ def load_resources():
         data = pickle.load(f)
 
     chunks = data["chunks"]
-    your_name = data["your_name"]
+    your_name = data["karmal sreenivasan"]
 
     # Load embedding model (fastembed: ONNX-based, no torch — much lighter
     # on the free hosting tier's memory limit than sentence-transformers)
