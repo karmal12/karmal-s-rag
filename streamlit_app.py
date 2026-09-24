@@ -80,7 +80,7 @@ def ask_chatbot(query, chat_history=None):
         f"""Use the following excerpts as your factual reference:
 
 
-        f"Answer in third person.\n\nExcerpts:\n{context}"""
+        f"Answer in third person.\n\nExcerpts:\n{context}"
     )
 
     # Build messages
