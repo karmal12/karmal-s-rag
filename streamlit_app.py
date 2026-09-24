@@ -108,7 +108,7 @@ def ask_chatbot(query, chat_history=None):
     )
 
     return response.choices[0].message.content
-    ))
+    
 
     # Build messages
     messages = [{"role": "system", "content": system_prompt}]
