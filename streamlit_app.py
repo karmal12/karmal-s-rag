@@ -42,7 +42,7 @@ def load_resources():
 chunks, embedder, index, YOUR_NAME = load_resources()
 
 # Initialize Groq client (reads API key from Streamlit secrets)
-client = Groq(api_key=st.secrets["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])
+client = Groq(api_key=st.secrets["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"])
 
 # RAG functions
 def retrieve(query, k=4):
